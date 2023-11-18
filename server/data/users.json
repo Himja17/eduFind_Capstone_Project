@@ -15,13 +15,28 @@
     "password": "1234"
   },
   {
-    "id": 4,
-    "username": "ubcfdgfd",
-    "password": "passworder2dfdfdg"
+    "id": 6,
+    "username": "himjaP",
+    "password": "$2b$10$jjCsc1fO57ZhHRcIbL/qvuslfKVl00MIS/7S/blcbU31H9OFGGY3y"
   },
   {
     "id": 5,
-    "username": "ubc3rvfdfdgfd",
-    "password": "passworder2dfdfdg"
+    "username": "lavP",
+    "password": "$2b$10$tvE9RgA4HE2G7/1wweDPZed0o4IstMryoPQo6go87LOMKFLJ3so.u"
+  },
+  {
+    "id": 6,
+    "username": "himjaPP",
+    "password": "$2b$10$ipo4psOS9fZDfsDcSfLJMeNPbzlfDKhRHWYTogE5NAvRzC/sWHFQm"
+  },
+  {
+    "id": 7,
+    "username": "brainsta",
+    "password": "$2b$10$m5tBGHX.BK7/MKVPN6AUeeMYH9Tyq.bEXkTBdwKgOw7pujGxwr8gm"
+  },
+  {
+    "id": 8,
+    "username": "test5",
+    "password": "$2b$10$smZT45VkwzoCwTbvYSrznu5alWidDRBA2I2iIsny2MkLmbUBMaF.i"
   }
 ]

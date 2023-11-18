@@ -1,0 +1,15 @@
+@import "../../styles/partials/variables";
+.App {
+  height: 30vh;
+  width: 80vw;
+  // border: 1px solid $mercury;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ margin-bottom: 20px;
+  margin-top: 30px;
+}
+.map-container {
+  height: 100%;
+}
+.gm-style {
+  touch-action: pan-x pan-y !important;
+}

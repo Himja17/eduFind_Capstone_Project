@@ -1,0 +1,100 @@
+@import "../../styles/partials/variables";
+@import "../../styles/partials/mixins";
+
+.collegebox {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: $primary-banner;
+
+  &__main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__img {
+    border-radius: 4px;
+    height: 10vh;
+    object-fit: contain;
+    max-width: 200px;
+  }
+
+  &__bttn--container {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 6vh;
+  }
+
+  &__bttn {
+    @include bttn-style;
+    height: 4vh;
+  }
+
+  &__school {
+    color: $secondary-text;
+    font-family: "Rogan Bold";
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  &__program {
+    font-family: "Rogan Medium";
+    color: $mercury;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  &__degree {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__fees {
+    margin-top: 0;
+  }
+
+  &__program-url {
+    @include bttn-style;
+    height: 3.8vh;
+    font-size:  0.8rem;
+    width: 45%;
+    margin-left: 5px;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+.collegeboxMore {
+  width: 100%;
+  // background-color: grey;
+}
+
+.googleMap {
+  width: 50%;
+}
+
+.collegebox__currencyBttn {
+  @include bttn-style;
+  width: 45%;
+  font-size: 0.8rem;
+  height: 3.8vh;
+  margin-left: 20px;
+
+  &--close {
+    @include bttn-style;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+    height: 2.8vh;
+  
+  }
+}

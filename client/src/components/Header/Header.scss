@@ -1,0 +1,33 @@
+@import "../../styles/partials/variables";
+@import "../../styles/partials/typography";
+@import "../../styles/partials/mixins";
+.header {
+  &__main {
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    background-color: $footer-background;
+
+  }
+  &__logo {
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  &__links {
+    display: flex;
+    color: $secondary-text;
+    font-size: 20px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+   
+  }
+  &__eachlink {
+    display: flex;
+     
+  }
+  &__categories-link{
+    text-decoration: none;
+  }
+}

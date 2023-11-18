@@ -1,0 +1,43 @@
+@import "../../styles/partials/typography";
+@import "../../styles/partials/variables";
+@import "../../styles/partials/mixins";
+
+.footer {
+  &__main {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+    background-color: $footer-background;
+  }
+  &__copyright {
+    display: flex;
+    justify-content: center;
+  }
+  &__links {
+    display: flex;
+    justify-content: space-around;
+    &--para {
+      font-size: 20px;
+      display: flex;
+      text-decoration: none;
+      color: $secondary-text;
+    }
+  }
+
+  &__logo {
+    width: 50%;
+  }
+
+  &__icons-container {
+    display: flex;
+    justify-content: center;
+  }
+  &__icons {
+    width: 20px;
+    margin-right: 10px;
+    @include desktopView {
+      width: 30px;
+    }
+  }
+}

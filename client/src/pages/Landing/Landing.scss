@@ -1,0 +1,92 @@
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/variables";
+
+.category {
+  &__main {
+    background-color: $primary-banner;
+  }
+
+  &__bttn {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(to bottom, #ededed 5%, #fffeff 100%);
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: $secondary-text;
+    font-family: "Rogan Bold";
+    font-size: 1.1rem;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    @include tabletView {
+      height: 25vh;
+    }
+    @include desktopView {
+      height: 35vh;
+    }
+    &:hover {
+      background: linear-gradient(to bottom, #e1d5e1 5%, #ededed 100%);
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    @include tabletView {
+      padding-bottom: 25px;
+    }
+    @include desktopView {
+      padding-bottom: 35px;
+    }
+  }
+
+  &__sub-heading {
+    text-align: center;
+    color: $mercury;
+    font-size: $h2-font;
+    
+  }
+  &__h2 {
+    margin: 0;
+    padding-top: 50px;
+    @include desktopView {
+      font-size: 50px;
+    }
+  }
+  &__para {
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @include desktopView {
+      font-size: 20px;
+    }
+  }
+  &__icon {
+    width: 30%;
+    height: 10vh;
+    @include tabletView {
+      height: 15vh;
+    }
+    @include desktopView {
+      height: 22vh;
+    }
+  }
+  &__bttn-text {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    @include tabletView {
+      font-size: 20px;
+    }
+    @include desktopView {
+      font-size: 32px;
+    }
+  }
+}

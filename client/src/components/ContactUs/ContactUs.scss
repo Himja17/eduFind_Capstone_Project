@@ -1,0 +1,74 @@
+@import "../../styles/partials/variables";
+
+.contact-container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  height: 70vh;
+
+  h2 {
+    font-size: 24px;
+    color: $secondary-text;
+  }
+
+  form {
+    margin-top: 20px;
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      background:#e0dede;;
+    }
+
+    button {
+      background-color:  $secondary-text;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: darken( $secondary-text, 10%);
+      }
+    }
+  }
+
+  p.success-message {
+    color: $mercury;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  
+}
+.message{
+    height: 15vh;
+   border: 5px solid blue;
+   margin-top: 20px;
+  }
+  .back-button{
+      background-color:  $secondary-text;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: darken( $secondary-text, 10%);
+      }
+  }

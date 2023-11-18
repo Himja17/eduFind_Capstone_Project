@@ -1,0 +1,46 @@
+@import "../../styles/partials/variables";
+.currency {
+  &__main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    gap: 10px 0;
+    background-color: $footer-background;
+  }
+  &__container {
+    margin-top: 5px;
+    display: flex;
+    width: 50%;
+  }
+  &__input {
+    width: 80%;
+    text-align: left;
+    margin: 0;
+    display: flex;
+    margin-top: 5px;
+    height: 1vh;
+    background-color: #fff;
+  }
+  &__subcontainer {
+    margin-top: 5px;
+    width: 50%;
+  }
+
+  &__conlist {
+    margin-top: 5px;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  &__exchangerate {
+    // margin-top: 10px;
+    p {
+      color: red;
+      margin-top: 30px;
+    }
+  }
+}
+option {
+  background-color: #fff;
+}
