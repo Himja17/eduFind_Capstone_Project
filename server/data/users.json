@@ -38,5 +38,10 @@
     "id": 8,
     "username": "test5",
     "password": "$2b$10$smZT45VkwzoCwTbvYSrznu5alWidDRBA2I2iIsny2MkLmbUBMaF.i"
+  },
+  {
+    "id": 9,
+    "username": "himjaPPP",
+    "password": "$2b$10$78ZHTJ/7whvJXQQLeRDyyuuKO7pK9POywHYIFnEEd1KnR3kvmdvli"
   }
 ]
