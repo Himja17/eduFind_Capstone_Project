@@ -4,11 +4,11 @@ A full stack application for international students to search for programs based
 
 ### Contents
 
-<li>[**Features**](#features)</li>
-<li>[**Tech Stack**](#tech-stack)</li>
-<li>[**Roadmap**](#roadmap)</li>
-<li>[**Environment Variables**](#environment-variables)</li>
-<li>Run Locally</li>
+<li>[Features](#features)</li>
+<li>[Tech Stack](#tech-stack)</li>
+<li>[Roadmap](#roadmap)</li>
+<li>[Environment Variables](#environment-variables)</li>
+<li>[Run Locally](#run-locally)</li>
 <li>API Documentation</li>
 
 ## Features
@@ -31,7 +31,7 @@ A full stack application for international students to search for programs based
 <li>React</li>
 <li>React Router</li>
 <li>Sass</li>
-<li>Axios</li>
+<li>Axios</li><br/>
 
 **Back-end**
 
@@ -128,4 +128,3 @@ Set-up DataBase
 Start the server
 
 `npm run start`
-
